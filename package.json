@@ -1,0 +1,33 @@
+{
+  "name": "electron-websocket-express",
+  "version": "1.0.0",
+  "description": "Electron node.js with websocket and web server express",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/mafikes/electron-websocket-express",
+  "keywords": [
+    "Electron",
+    "websocket",
+    "express"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.1.6",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "electron-shutdown-command": "0.0.8",
+    "express": "^4.16.4",
+    "express-static": "^1.2.6",
+    "express-status-monitor": "^1.2.3",
+    "mini-css-extract-plugin": "^0.5.0",
+    "path": "^0.12.7",
+    "quick-local-ip": "^1.0.7",
+    "request": "^2.88.0",
+    "ws": "^6.1.0"
+  }
+}

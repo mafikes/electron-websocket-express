@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/frontend.css">
+    <title>Client</title>
+</head>
+<body data-window="main">
+
+<div class="window">
+    <h1 class="title">
+        Connecting to server...
+    </h1>
+
+    <div class="window-content">
+        <button class="js-send-action">Send test action</button>
+    </div>
+</div>
+
+<script>
+    window.nodeRequire = require;
+    delete window.require;
+    delete window.exports;
+    delete window.module;
+</script>
+
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/connect.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
